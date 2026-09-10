@@ -1,0 +1,6 @@
+{
+  "name": "ADAPT-GO",
+  "description": "An adaptive travel planning system that monitors real-world conditions and dynamically replans your trip when reality changes.",
+  "requestFramePermissions": ["geolocation", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
