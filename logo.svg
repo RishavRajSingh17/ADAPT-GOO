@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 310 115" width="100%" height="100%" fill="none">
+  <defs>
+    <!-- Mountain Gradient: Cyan to Emerald Teal -->
+    <linearGradient id="adaptgo-main-peak" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="45%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#14b8a6" />
+    </linearGradient>
+
+    <!-- Compass Circle Gradient -->
+    <linearGradient id="adaptgo-main-compass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="45%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0d9488" />
+    </linearGradient>
+  </defs>
+
+  <!-- Mountain Peaks Graphic -->
+  <g id="mountain-peaks" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Primary Twin Peaks -->
+    <path
+      d="M 90 60 L 122 30 L 142 48 L 172 10 L 210 58"
+      stroke="url(#adaptgo-main-peak)"
+      stroke-width="7"
+      stroke-miterlimit="4"
+    />
+    <!-- Ridge & Facet Detail Lines -->
+    <path
+      d="M 172 12 L 183 38 L 197 48"
+      stroke="url(#adaptgo-main-peak)"
+      stroke-width="4"
+    />
+    <path
+      d="M 183 38 L 179 50"
+      stroke="url(#adaptgo-main-peak)"
+      stroke-width="3"
+    />
+    <path
+      d="M 122 30 L 129 44"
+      stroke="url(#adaptgo-main-peak)"
+      stroke-width="3"
+    />
+  </g>
+
+  <!-- Typography: "ADAPT" in Ultra-Bold Midnight Navy -->
+  <text
+    x="6"
+    y="104"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Montserrat', 'Inter', 'Segoe UI', sans-serif"
+    font-weight="900"
+    font-size="52"
+    letter-spacing="-0.04em"
+    fill="#0a192f"
+  >ADAPT</text>
+
+  <!-- Letter: "G" -->
+  <text
+    x="176"
+    y="104"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Montserrat', 'Inter', 'Segoe UI', sans-serif"
+    font-weight="900"
+    font-size="52"
+    letter-spacing="-0.04em"
+    fill="#0a192f"
+  >G</text>
+
+  <!-- Letter: "O" as Navigation Compass Badge -->
+  <g id="nav-compass-o" transform="translate(258, 86)">
+    <!-- Gradient Circle -->
+    <circle cx="0" cy="0" r="22.5" fill="url(#adaptgo-main-compass)" />
+
+    <!-- 3D Stylized Navigation Arrow / Paper Plane -->
+    <path
+      d="M 11 -11 L -11 -1 L -3 3 Z"
+      fill="#ffffff"
+    />
+    <path
+      d="M 11 -11 L -3 3 L 1 11 Z"
+      fill="#e2e8f0"
+    />
+  </g>
+</svg>
